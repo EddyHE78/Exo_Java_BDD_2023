@@ -30,10 +30,15 @@
         <% } else { %>
             <p>Non, C n'est pas compris entre A et B.</p>
         <% } %>
+        
+        <h2>Exercice 2 : Pair ou Impair ?</h2>
+        <%-- Condition if pour vérifier si le nombre est pair ou impair --%>
+        <% if (intValeurC % 2 == 0) { %>
+            <p>La valeur C est un nombre pair.</p>
+        <% } else { %>
+            <p>La valeur C est un nombre impair.</p>
+        <% } %>
     <% } %>
-
-    <h2>Exercice 2 : Pair ou Impair ?</h2>
-    <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
 
     <p><a href="index.html">Retour au sommaire</a></p>
 </body>
